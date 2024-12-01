@@ -25,7 +25,7 @@ export default defineNuxtPlugin(() => {
 
     const logout = () => {
         user.value = null;
-        navigateTo("/");
+        navigateTo("/login");
     };
 
     const getUser = async () => {
